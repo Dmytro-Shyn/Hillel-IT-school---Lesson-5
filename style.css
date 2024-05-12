@@ -27,6 +27,7 @@ body{
     margin: 13px 13px;
     border: none;
     background-color: inherit;
+    cursor: pointer;
 }
 .exit:hover{
     cursor: pointer;
