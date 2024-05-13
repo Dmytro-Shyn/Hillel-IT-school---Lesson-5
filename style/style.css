@@ -5,11 +5,17 @@
 a{
     text-decoration: none;
 }
-p{
-    font-size: 13px;
-    font-weight: 500px;
+.text-20px-lh-16px{
+    font-size: 20px;
     line-height: 16px;
     color: #3D3D3D;
+}
+.login-text{
+    font-weight: 500;
+}
+.register-text{
+    font-weight: 400;
+    color: #46A358;
 }
 body{
     margin: 0;
@@ -121,8 +127,7 @@ form{
     display: flex;
     flex-direction: column;
 }
-input{
-    border-radius: 3px;
+.form-input{
     width: 270px;
     margin-bottom: 16px;
     font-size: 16px;
@@ -130,9 +135,6 @@ input{
     line-height: 16px;
     padding: 12px 14px;
     color: #A5A5A5;
-    border: 1px solid #EAEAEA;
-}
-.form-input{
     outline: none;
     border: 1px solid #EAEAEA;
     border-radius: 5px;
@@ -150,18 +152,6 @@ input{
     height: 18px;
     width: 1px;
     background-color: #3D3D3D;
-}
-.login-text{
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 16px;
-    color: #3D3D3D;
-}
-.register-text{
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 16px;
-    color: #46A358;
 }
 .btn-register {
     font-size: 16px;
